@@ -1,0 +1,13 @@
+<app-landing></app-landing>
+
+<ul class="collection" *ngFor="let u of users" >
+  <li class="collection-item avatar">
+    <img src="assets/user.png" alt="" class="circle">
+    <span class="title"><strong>{{u.name}}</strong> {{ u.phone }} {{ u.email}}</span>
+    <p><strong>user-name:</strong>{{u.username}} <br>
+       {{u.website}}
+    </p>
+    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+  </li>
+
+</ul>
